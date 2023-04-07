@@ -1,0 +1,74 @@
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #c8b9b9;
+    padding: 20px;
+    border: 2px solid black;
+    width: 30%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+
+container label {
+    text-align: left;
+}
+
+label {
+    text-align: left;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.loginbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.loginbtn:hover {
+    opacity: 1;
+}
+
+input[type=email],
+input[type=password],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
